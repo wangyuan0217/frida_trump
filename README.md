@@ -29,6 +29,7 @@
 | anti\_debug               | 简单的一键反调试.参考项目来自于FridaContainer                       |
 | FCAnd\_jnitrace           | 简化的jnitrace,不需要指定module和函数了.参考项目来自于FridaContainer    |
 | flutter-bypass-sslpinning | Flutter的sslpinning，来自git项目flutter-ssl-pinning-bypass |
+| bypass_sim_checking | 跳过安卓对sim的检测，来自git项目R0b0t4ng3nt/frida-scripts |
 
 | 目录multi\_js | python同时hook文件夹下的所有js脚本      |
 | :---------- | :--------------------------- |
