@@ -1,4 +1,7 @@
 /*
+
+ from https://github.com/ax/android-fingerprint-bypass
+ 
 	Universal Android Biometric Bypass v0.4
 	author: ax - github.com/ax
 	Updated Android biometric bypass script (from Kamil Breński, Krzysztof Pranczk and Mateusz Fruba, August 2019)
