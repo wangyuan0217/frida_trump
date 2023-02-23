@@ -39,11 +39,6 @@ for i in pkgs:
     print(pkg_index, i[8:])
     pkg_index += 1
 print('---------------------------------------')
-dir_index = 0
-for i in dir_files_new:
-    print(dir_index, i)
-    dir_index += 1
-print('---------------------------------------')
 
 input_pkg = input("输入要注入包名下标:")
 action_pkg = pkgs[int(input_pkg)][8:]
@@ -78,10 +73,19 @@ while (True):
             print("重新检测进程!")
 
 
+print('---------------------------------------')
+dir_index = 0
+for i in dir_files_new:
+    print(dir_index, i)
+    dir_index += 1
+print('---------------------------------------')
+
 # 选择注入js
-input_frida_index = input("输入要注入脚本下标")
+input_frida_index = input("输入要注入脚本下标:")
 frida_js = dir_files_new[int(input_frida_index)]
 
+
+print('---------------------------------------')
 
 # 注入方式
 frida_type = 'attach'
